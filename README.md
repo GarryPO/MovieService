@@ -22,7 +22,7 @@ Report should be located in "allure-report' folder - just open index.html
 5. Test if user can modify exiting movie details via PUT method.
     Expected result: Movie details should be successfuly modified according to users request, responce status code should be 200
 6. Test if user is able to delete movie from service by its index via DELETE method
-    Expected result: Movie details should be seccessfuly deleted from service, responcse status should be 200 , if user request this movie by its index responce status should be 404
+    Expected result: Movie details should be seccessfuly deleted from service, responcse status should be 200 
 
 7. Test if user request for deleted movie details by its index via GET method he recives correct response.
     Expected result: no movie details is returned to user, response status code is 404
