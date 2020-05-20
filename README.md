@@ -1,5 +1,5 @@
 # MovieService
-Example project of testing Movie Service API
+Example project of testing Movie Service API.
 Java doc can be found at https://garrypo.github.io/MovieService/
 # Run
 Make sure you have java 8 and maven installed 
