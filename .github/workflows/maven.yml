@@ -21,5 +21,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn clean test -PSimpleTest
-    
+      run: mvn  -Dtest=SimpleTest test 
