@@ -1,3 +1,5 @@
+![Java CI with Maven](https://github.com/GarryPO/MovieService/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 # MovieService
 Example project of testing Movie Service API.
 Java doc can be found at https://garrypo.github.io/MovieService/
