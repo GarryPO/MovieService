@@ -2,7 +2,7 @@
 Example project of testing Movie Service API
 Java doc can be found at https://garrypo.github.io/MovieService/
 
-#Run
+# Run
 Make sure you have java 8 and maven installed 
 1. From root folder of the project via comand line execute :" mvn clean test"
 2. After test suit is finished you can generate report via "mvn clean allure:report"
