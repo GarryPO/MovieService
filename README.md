@@ -26,8 +26,10 @@ Report should be located in "allure-report' folder - just open index.html
 
 7. Test if user request for deleted movie details by its index via GET method he recives correct response.
     Expected result: no movie details is returned to user, response status code is 404
-8.Test if user is not able to POST movie details with additional fields not defined by JSON scheme 
+
+8. Test if user is not able to POST movie details with additional fields not defined by JSON scheme 
   Expected result: user unable to POST movie details with additional fields not defined by JSON scheme , response code should be 400
+
 9. Test that user is not able to insert via POST or PUT new movie with negative date.
     Expected resut: user unable to insert movie details with negative date, response status code should be 400 
 
