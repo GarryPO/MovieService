@@ -27,9 +27,13 @@ Report should be located in "allure-report' folder - just open index.html
     Expected result: Movie details should be successfuly modified according to users request, responce status code should be 200
 6. Test if user is able to delete movie from service by its index via DELETE method
     Expected result: Movie details should be seccessfuly deleted from service, responcse status should be 200 , if user request this movie by its index responce status should be 404
-7.Test if user is not able to POST movie details with additional fields not defined by JSON scheme 
+
+7. Test if user request for deleted movie details by its index via GET method he recives correct response.
+    Expected result: no movie details is returned to user, response status code is 404
+8.Test if user is not able to POST movie details with additional fields not defined by JSON scheme 
   Expected result: user unable to POST movie details with additional fields not defined by JSON scheme , response code should be 400
-8. Test that user is not able to insert via POST or PUT new movie with negative date.
+
+9. Test that user is not able to insert via POST or PUT new movie with negative date.
     Expected resut: user unable to insert movie details with negative date, response status code should be 400 
 
   
