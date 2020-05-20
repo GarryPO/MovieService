@@ -1,22 +1,16 @@
-import io.restassured.RestAssured;
-import io.restassured.filter.log.RequestLoggingFilter;
-import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
-import io.restassured.mapper.ObjectMapper;
 import io.restassured.mapper.ObjectMapperType;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.specification.ResponseSpecification;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-
 import java.io.File;
-
-import static io.restassured.RestAssured.basic;
 import static io.restassured.RestAssured.given;
 
+
+/**
+ * Simple test class containing example test cases against basic CRUD operations
+ */
 public class SimpleTest extends BaseTest {
 
     private Movie horror;

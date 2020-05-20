@@ -2,11 +2,13 @@ import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
-import io.restassured.specification.ResponseSpecification;
 import org.testng.annotations.BeforeClass;
 
 import static io.restassured.RestAssured.basic;
 
+/**
+ * Base test class to hold test configuration
+ */
 public class BaseTest {
 
 

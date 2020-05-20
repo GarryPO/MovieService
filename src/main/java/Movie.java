@@ -8,13 +8,19 @@ import lombok.NoArgsConstructor;
 
 import static org.hamcrest.Matchers.*;
 
-
+/***
+ * Simple data class to represent movie
+ */
 @Data @Builder @AllArgsConstructor @NoArgsConstructor
 public class Movie {
     private int Year;
     private String Director;
     private String Title;
 
+    /***
+     * Method generates test specification against which assertions will be performed
+     * @return
+     */
     public ResponseSpecification MovieSpec(){
         ResponseSpecBuilder builder = new ResponseSpecBuilder();
         builder.expectContentType(ContentType.JSON)
