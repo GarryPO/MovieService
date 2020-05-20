@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "MovieService",
+      "children" : [ {
+        "name" : "SimpleTest",
+        "children" : [ {
+          "name" : "createMovie",
+          "uid" : "a893cd41483280fc",
+          "parentUid" : "02b98586eea3d08289d7cf0695159a79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589963926827,
+            "stop" : 1589963928663,
+            "duration" : 1836
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "getMovie",
+          "uid" : "d6369fc5ace0ce7f",
+          "parentUid" : "02b98586eea3d08289d7cf0695159a79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589963928779,
+            "stop" : 1589963929868,
+            "duration" : 1089
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "getOldMovie",
+          "uid" : "85fa20414f3d69b9",
+          "parentUid" : "02b98586eea3d08289d7cf0695159a79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589963929871,
+            "stop" : 1589963930408,
+            "duration" : 537
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateJsonShceme",
+          "uid" : "b6c89f5b6dbefad2",
+          "parentUid" : "02b98586eea3d08289d7cf0695159a79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589963930410,
+            "stop" : 1589963931218,
+            "duration" : 808
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateMovie",
+          "uid" : "fa09c324f0028613",
+          "parentUid" : "02b98586eea3d08289d7cf0695159a79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589963931221,
+            "stop" : 1589963932472,
+            "duration" : 1251
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "deleteMovie",
+          "uid" : "804080106b9b835e",
+          "parentUid" : "02b98586eea3d08289d7cf0695159a79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589963932474,
+            "stop" : 1589963933454,
+            "duration" : 980
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "02b98586eea3d08289d7cf0695159a79"
+      } ],
+      "uid" : "8f1e6b471aa0e603e4089ba833e28ba1"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ],
+  "name" : "suites"
+}

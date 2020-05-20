@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 20 11:38:49 IDT 2020","Wed May 20 11:38:50 IDT 2020","537","Default Suite","MovieService","SimpleTest","SimpleTest","getOldMovie","getOldMovie",""
+"passed","Wed May 20 11:38:50 IDT 2020","Wed May 20 11:38:51 IDT 2020","808","Default Suite","MovieService","SimpleTest","SimpleTest","validateJsonShceme","validateJsonShceme",""
+"passed","Wed May 20 11:38:51 IDT 2020","Wed May 20 11:38:52 IDT 2020","1251","Default Suite","MovieService","SimpleTest","SimpleTest","updateMovie","updateMovie",""
+"passed","Wed May 20 11:38:52 IDT 2020","Wed May 20 11:38:53 IDT 2020","980","Default Suite","MovieService","SimpleTest","SimpleTest","deleteMovie","deleteMovie",""
+"passed","Wed May 20 11:38:46 IDT 2020","Wed May 20 11:38:48 IDT 2020","1836","Default Suite","MovieService","SimpleTest","SimpleTest","createMovie","createMovie",""
+"passed","Wed May 20 11:38:48 IDT 2020","Wed May 20 11:38:49 IDT 2020","1089","Default Suite","MovieService","SimpleTest","SimpleTest","getMovie","getMovie",""
