@@ -15,7 +15,7 @@ Report should be located in "allure-report' folder - just open index.html
 1. Test if user can get existing movie details by index via GET method
   Expected result: Movie details should be returned, response code should be 200
   
-2. Test if user tries to get movie details whih doesn't exist in the service he recives correct responce.
+2. Test if user tries to get movie details which doesn't exist in the service he recives correct responce.
    Expected result: no movie details should be returned, response conde should be 404
    
 3. Test if user can insert new movie details via POST method.
